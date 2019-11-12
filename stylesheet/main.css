@@ -1,18 +1,24 @@
 body{
     font-family: 'Trebuchet MS', Arial, sans-serif;
-    background-color:#434718;
+    background-color:#dadada;
 }
 
 h1{
-    color:#383f1e;
+    color:#7e7e7e;
+    max-width: 100%;
+    text-align: center;
 }
 
 #wrap{
     max-width:900px;
+    margin: 0 auto;
 }
 
 nav{
-    background-color:#383f1e;
+    background-color:#fff;
+    color: #585858;
+    font-weight: bold;
+    padding:5px;
 }
 
 footer{
