@@ -1,5 +1,5 @@
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
     background-color:#434718;
 }
 
@@ -17,4 +17,19 @@ nav{
 
 footer{
     background-color:#383f1e;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+ul li a{
+    text-decoration:none;
+    color:inherit;
+}
+
+ul li a:hover{
+    font-weight: bolder;
+    font-size: 1.1rem;
 }
