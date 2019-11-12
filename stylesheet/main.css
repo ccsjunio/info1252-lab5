@@ -3,10 +3,11 @@ body{
     background-color:#dadada;
 }
 
-h1{
+header h1{
     color:#7e7e7e;
     max-width: 100%;
     text-align: center;
+    text-transform: uppercase;
 }
 
 #wrap{
@@ -20,7 +21,8 @@ nav{
     font-weight: bold;
     padding:5px;
     text-align: center;
-    margin-top: 1px solid #7e7e7e;
+    border-top: 1px solid #919090;
+    border-bottom: 1px solid #919090;
     margin-bottom: 10px;
 }
 
@@ -44,14 +46,10 @@ nav ul li a:hover{
     font-size: 1.1rem;
 }
 
-nav > ul > li:not(:target):not(:hover) > ul >li {
-    display: none;
-}
-
 section{
     background-color:#fff;
-    padding: 5px;
-    border:1px solid #7e7e7e;
+    padding: 10px;
+    border:1px solid #919090;
     margin-bottom: 10px;
     color: #646464;
 }
