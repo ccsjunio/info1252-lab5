@@ -28,19 +28,24 @@ footer{
     background-color:#383f1e;
 }
 
-ul{
+nav ul{
     list-style: none;
     padding-left: 0px;
 }
 
-ul li a{
+
+nav ul li a{
     text-decoration:none;
     color:inherit;
 }
 
-ul li a:hover{
+nav ul li a:hover{
     font-weight: bolder;
     font-size: 1.1rem;
+}
+
+nav > ul > li:not(:target):not(:hover) > ul >li {
+    display: none;
 }
 
 section{
